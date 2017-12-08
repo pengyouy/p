@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>¸Ä´óĞ¡Ğ´</title>
+<title>æ”¹å¤§å°å†™</title>
 <script>
 function shuaxin(){
 window.location.reload();	
@@ -14,6 +14,11 @@ var odiv1=document.getElementById('div1').innerHTML;
 var o=i-c;
 var daxie=odiv1.substr(0,[o]);
 
+
+    printf("hello world!");
+ printf("hello world!");
+    return 0;
+
 var ob=document.getElementById('div1').innerHTML=daxie;
 }  
 
@@ -22,9 +27,9 @@ var ob=document.getElementById('div1').innerHTML=daxie;
 </head>
 
 <body>
-<p>ÇëÏÈÊäÈë´Óµ¹ÊıµÚ¼¸¸ö×Ö·û¿ªÊ¼É¾³ıºóÃæµÄÔªËØ£¬ºóµã»÷¿ªÊ¼°´Å¥</p>
-<input type="button" value="¿ªÊ¼" onClick="gaixiao()">
-<input type="button" value="Ë¢ĞÂ" onClick="shuaxin()">
+<p>è¯·å…ˆè¾“å…¥ä»å€’æ•°ç¬¬å‡ ä¸ªå­—ç¬¦å¼€å§‹åˆ é™¤åé¢çš„å…ƒç´ ï¼Œåç‚¹å‡»å¼€å§‹æŒ‰é’®</p>
+<input type="button" value="å¼€å§‹" onClick="gaixiao()">
+<input type="button" value="åˆ·æ–°" onClick="shuaxin()">
 <input  id="tx1" type="text"  >
 <div id="div1">Welcome to the underground city</div>
 </body>
